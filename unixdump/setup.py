@@ -15,7 +15,7 @@ setup(
   url='https://github.com/nccgroup/ebpf',
   license='GPLv2 (Only)/BSD (2 Clause)',
 
-  python_requires='>=2.7.0, !=3.*',
+  python_requires='>=2.7.0',
   #platforms=['linux'], #ignored by setuptools/distutils
   install_requires=[
     'pybst >=1.0, <2',
